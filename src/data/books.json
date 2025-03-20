@@ -1,0 +1,23 @@
+[
+  {
+    "id": 5,
+    "name": "The Shadow Chronicles (Fiction)",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1621944192380-808416c390e2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Books"
+  },
+  {
+    "id": 6,
+    "name": "Savor & Spice: Gourmet Cooking Guide (Cookbook)",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1621944190310-e3cca1564bd7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Books"
+  },
+  {
+    "id": 7,
+    "name": "Cosmic Wonders: A Journey Through Space (Science)",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1573848855919-9abecc93e456?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Books"
+  }
+]

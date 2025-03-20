@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "GlowRevive Facial Cleanser",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1623143445418-40c192fa3d11?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Beauty & Personal Care"
+  },
+  {
+    "id": 2,
+    "name": "SilkStrands Nourishing Shampoo",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1559743344-950d2d9458cc?q=80&w=2596&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Beauty & Personal Care"
+  },
+  {
+    "id": 3,
+    "name": "LushAura Signature Perfume",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1693960794438-38ff837bd04a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Beauty & Personal Care"
+  },
+  {
+    "id": 4,
+    "name": "Soothing Hand Cream Set",
+    "price": 22.99,
+    "image": "https://images.unsplash.com/photo-1638609927040-8a7e97cd9d6a?q=80&w=2391&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Beauty & Personal Care"
+  }
+]

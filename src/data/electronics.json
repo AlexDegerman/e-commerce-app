@@ -1,0 +1,44 @@
+[
+  {
+    "id": 13,
+    "name": "Zenith X1 Smartphone",
+    "price": 599.99,
+    "image": "https://images.unsplash.com/photo-1583291023438-41cef6453b1f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  },
+  {
+    "id": 14,
+    "name": "AeroBook Pro Laptop",
+    "price": 999.99,
+    "image": "https://images.unsplash.com/photo-1607452258545-943d7243463c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  },
+  {
+    "id": 15,
+    "name": "EchoWave Wireless Headphones",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1625245488600-f03fef636a3c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  },
+  {
+    "id": 16,
+    "name": "NeonFit Smartwatch",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1719075596884-2020f827a8dd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  },
+  {
+    "id": 17,
+    "name": "HyperTab 10 Tablet",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1562774555-db2ea73a43aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGV0JTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "category": "Electronics"
+  },
+  {
+    "id": 18,
+    "name": "PhotonX Digital Camera",
+    "price": 499.99,
+    "image": "https://images.unsplash.com/photo-1571906970981-21af44b68290?q=80&w=2712&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  }
+]

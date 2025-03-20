@@ -1,0 +1,23 @@
+[
+  {
+    "id": 19,
+    "name": "ChocoCrunch Hazelnut Bar",
+    "price": 2.99,
+    "image": "https://images.unsplash.com/photo-1718011794471-8777e6b5b05c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Groceries"
+  },
+  {
+    "id": 20,
+    "name": "CitrusBurst Fresh Orange Juice",
+    "price": 3.99,
+    "image": "https://images.unsplash.com/photo-1587015990127-424b954e38b5?q=80&w=2167&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Groceries"
+  },
+  {
+    "id": 21,
+    "name": "SavoryBites Classic Potato Chips",
+    "price": 1.99,
+    "image": "https://images.unsplash.com/photo-1708746333908-3bd1463b85e6?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Groceries"
+  }
+]

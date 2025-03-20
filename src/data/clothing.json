@@ -1,0 +1,37 @@
+[
+  {
+    "id": 8,
+    "name": "UrbanFlex Cotton T-shirt",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1722310752951-4d459d28c678?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 9,
+    "name": "EverWarm Puffer Jacket",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1624548140129-74786c5f1279?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphY2tldCUyMHByb2R1Y3QlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 10,
+    "name": "StrideX Performance Sneakers",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1618686081236-3ef081793aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHNuZWFrZXJzJTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "category": "Clothing"
+  },
+  {
+    "id": 11,
+    "name": "CloudSoft Pullover Hoodie",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1630269470848-337134b23b06?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 12,
+    "name": "DenimEdge Slim Jeans",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1624378441864-6eda7eac51cb?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Clothing"
+  }
+]
