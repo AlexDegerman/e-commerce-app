@@ -27,6 +27,19 @@ const HomePage = () => {
           <p>${promotedProducts[currentIndex].price}</p>
         </div>
       </div>
+
+      <div className="featured-products">
+        <h2>Featured Products</h2>
+        <div className="featured-products-grid">
+          {featuredProducts.map((product) => (
+            <div key={product.id} className="product-card">
+            <img src={product.image} alt="product-name" className="product-image"/>
+            <h3>{product.name}</h3>
+            <p>${product.price}</p>
+          </div>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

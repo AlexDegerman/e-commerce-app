@@ -3,8 +3,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #333333;
+  background-color: #8A2BE2;
   color: white;
   width: 750px;
   margin-top: 100px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #FFD700;
+  text-decoration: underline;
 }
