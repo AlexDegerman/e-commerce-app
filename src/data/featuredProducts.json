@@ -1,0 +1,44 @@
+[
+  {
+    "id": 4,
+    "name": "AeroBook Pro Laptop",
+    "price": 999.99,
+    "image": "https://images.unsplash.com/photo-1607452258545-943d7243463c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "EverWarm Puffer Jacket",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1624548140129-74786c5f1279?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphY2tldCUyMHByb2R1Y3QlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 6,
+    "name": "CuddlePaws Plush Teddy Bear",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1648311128165-848a00883496?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVkZHklMjBiZWFyJTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHwy",
+    "category": "Toys & Games"
+  },
+  {
+    "id": 7,
+    "name": "CampMaster All-Weather Tent",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1633805159007-8e198bbcc931?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 8,
+    "name": "HyperTab 10 Tablet",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1562774555-db2ea73a43aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGV0JTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "NeonFit Smartwatch",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1719075596884-2020f827a8dd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Electronics"
+  }
+]
