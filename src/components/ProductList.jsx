@@ -43,7 +43,7 @@ const ProductList = () => {
               <p>${product.price}</p>
             </div>
           </Link>
-        ))}x
+        ))}
       </div>
     </div>
   )

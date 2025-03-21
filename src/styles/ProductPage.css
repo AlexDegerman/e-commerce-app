@@ -58,3 +58,18 @@
   background-color: #7e3dd6;
 }
 
+select {
+  padding: 8px 10px;
+  border: 1px solid #5a2ca0;
+  border-radius: 4px;
+  background-color: white;
+  color: #5a2ca0;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-left: 8px;
+}
+
+select:hover {
+  border-color: #7e3dd6;
+}
