@@ -18,6 +18,7 @@ const ProductList = () => {
       return Object.values(products).flat()
     }
     return products[selectedCategory]
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[selectedCategory])
 
   return (

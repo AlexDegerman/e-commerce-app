@@ -27,3 +27,27 @@
   border-radius: 8px;
 }
 
+.category-selector {
+  margin: 15px;
+}
+
+.category-selector label {
+  margin-right: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+#category-select {
+  padding: 8px 12px;
+  border: 2px solid #5a2ca0;
+  border-radius: 4px;
+  background-color: white;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+#category-select option {
+  padding: 8px;
+}
