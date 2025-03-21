@@ -1,30 +1,13 @@
-import electronics from "../data/electronics.json";
-import clothing from "../data/clothing.json";
-import homeDecor from "../data/homeDecor.json";
-import sportsOutdoors from "../data/sportsOutdoors.json";
-import beauty from "../data/beauty.json";
-import toys from "../data/toys.json";
-import books from "../data/books.json";
-import groceries from "../data/groceries.json";
 import { useMemo, useState } from "react";
 import "../styles/ProductList.css";
 import { Link } from "react-router-dom";
+import { useProduct } from "../hooks/useProduct";
 
 const categories = ["All", "Electronics", "Clothing", "Home Decor", "Sports & Outdoors", "Beauty & Personal Care", "Toys & Games", "Books", "Groceries"]
 
-const allProducts = {
-  Electronics: electronics,
-  Clothing: clothing,
-  "Home Decor": homeDecor,
-  "Sports & Outdoors": sportsOutdoors,
-  "Beauty & Personal Care": beauty,
-  "Toys & Games": toys,
-  Books: books,
-  Groceries: groceries,
-}
-
 const ProductList = () => {
   const [selectedCategory, setSelectedCategory] = useState("All")
+  const { products } = useProduct()
 
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value)
@@ -32,9 +15,9 @@ const ProductList = () => {
 
   const productsToDisplay = useMemo(() => {
     if (selectedCategory === "All") {
-      return Object.values(allProducts).flat()
+      return Object.values(products).flat()
     }
-    return allProducts[selectedCategory]
+    return products[selectedCategory]
   },[selectedCategory])
 
   return (
