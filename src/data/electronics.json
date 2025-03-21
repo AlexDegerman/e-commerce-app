@@ -4,41 +4,47 @@
     "name": "Zenith X1 Smartphone",
     "price": 599.99,
     "image": "https://images.unsplash.com/photo-1583291023438-41cef6453b1f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "The Zenith X1 Smartphone features a 6.5-inch display, a powerful 5000mAh battery, and a 48MP rear camera for stunning photos. Perfect for those looking for a high-performance device at an affordable price."
   },
   {
     "id": 14,
     "name": "AeroBook Pro Laptop",
     "price": 999.99,
     "image": "https://images.unsplash.com/photo-1607452258545-943d7243463c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "The AeroBook Pro Laptop is equipped with a powerful Intel Core i7 processor, 16GB of RAM, and a 512GB SSD. With a 15.6-inch display and sleek design, it's ideal for professionals and students alike."
   },
   {
     "id": 15,
     "name": "EchoWave Wireless Headphones",
     "price": 129.99,
     "image": "https://images.unsplash.com/photo-1625245488600-f03fef636a3c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "The EchoWave Wireless Headphones offer immersive sound quality with noise-canceling technology. The comfortable over-ear design and long battery life make them perfect for all-day use."
   },
   {
     "id": 16,
     "name": "NeonFit Smartwatch",
     "price": 199.99,
     "image": "https://images.unsplash.com/photo-1719075596884-2020f827a8dd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "The NeonFit Smartwatch tracks your fitness progress with features like heart rate monitoring, sleep tracking, and activity tracking. Stay connected with notifications, all on your wrist."
   },
   {
     "id": 17,
     "name": "HyperTab 10 Tablet",
     "price": 299.99,
     "image": "https://images.unsplash.com/photo-1562774555-db2ea73a43aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGV0JTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "The HyperTab 10 Tablet features a 10-inch display, powerful quad-core processor, and 64GB of storage, making it perfect for work and entertainment on the go."
   },
   {
     "id": 18,
     "name": "PhotonX Digital Camera",
     "price": 499.99,
     "image": "https://images.unsplash.com/photo-1571906970981-21af44b68290?q=80&w=2712&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Electronics"
+    "category": "Electronics",
+    "description": "Capture stunning photos and videos with the PhotonX Digital Camera. Featuring a 24MP sensor and 4K video recording, it’s the perfect choice for budding photographers and content creators."
   }
 ]

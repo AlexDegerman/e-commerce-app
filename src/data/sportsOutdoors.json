@@ -4,34 +4,39 @@
     "name": "TrailBlazer Mountain Bike",
     "price": 349.99,
     "image": "https://images.unsplash.com/photo-1673121414328-52eff37bc6d0?q=80&w=2696&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Sports & Outdoors"
+    "category": "Sports & Outdoors",
+    "description": "Conquer the toughest trails and blast through rugged terrains with the **TrailBlazer Mountain Bike**. Equipped with an ultra-durable frame, high-performance shocks, and an aggressive tire grip, this beast is built for extreme adventure. Whether you're shredding down mountain slopes or navigating through rocky paths, the **TrailBlazer** ensures a smooth and powerful ride that can handle anything nature throws at you. Ready to feel the rush?"
   },
   {
     "id": 27,
     "name": "ZenFlow Yoga Mat",
     "price": 29.99,
     "image": "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYSUyMG1hdCUyMG9uJTIwZmxvb3IlMjBsYWlkJTIwb3V0JTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
-    "category": "Sports & Outdoors"
+    "category": "Sports & Outdoors",
+    "description": "Find your center with the **ZenFlow Yoga Mat**. Designed for ultimate grip and comfort, it offers a cushioned surface for your poses, whether you're flowing through Vinyasa or holding your best Warrior pose. Non-slip and lightweight, it’s the perfect companion for your yoga journey."
   },
   {
     "id": 28,
     "name": "PowerStride Running Shoes",
     "price": 79.99,
     "image": "https://images.unsplash.com/photo-1615743771721-e2ee843a41c0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Sports & Outdoors"
+    "category": "Sports & Outdoors",
+    "description": "Unleash your speed with the **PowerStride Running Shoes**. Engineered for peak performance, they provide the perfect balance of lightweight comfort and supportive cushioning. Whether you're hitting the track or crushing the pavement, these shoes are your secret weapon for every stride."
   },
   {
     "id": 29,
     "name": "CampMaster All-Weather Tent",
     "price": 149.99,
     "image": "https://images.unsplash.com/photo-1633805159007-8e198bbcc931?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Sports & Outdoors"
+    "category": "Sports & Outdoors",
+    "description": "The **CampMaster All-Weather Tent** is your fortress against the elements. Whether it's rain, snow, or scorching sun, this tent keeps you dry and protected with its robust, weather-resistant design. Lightweight and easy to set up, it’s the perfect companion for your next adventure, no matter the season."
   },
   {
     "id": 30,
     "name": "HydroMax Insulated Water Bottle",
     "price": 19.99,
     "image": "https://images.unsplash.com/photo-1616118132534-381148898bb4?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Sports & Outdoors"
+    "category": "Sports & Outdoors",
+    "description": "Stay refreshed and ready for action with the **HydroMax Insulated Water Bottle**. This bottle keeps your drinks ice-cold for up to 24 hours or piping hot for 12 hours, thanks to its advanced double-wall insulation. With a sleek design and a leak-proof cap, it's the perfect hydration companion for all your outdoor adventures."
   }
 ]

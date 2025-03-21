@@ -8,7 +8,7 @@
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: clamp(200px, 50%, 1000px);
+  width: 750px;
 }
 
 .product-card {

@@ -4,34 +4,39 @@
     "name": "UrbanFlex Cotton T-shirt",
     "price": 19.99,
     "image": "https://images.unsplash.com/photo-1722310752951-4d459d28c678?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Clothing"
+    "category": "Clothing",
+    "description": "The UrbanFlex Cotton T-shirt is a comfortable, breathable everyday essential. Made from premium cotton, it provides a soft touch and a classic fit perfect for casual outings or lounging at home. Available in multiple colors."
   },
   {
     "id": 9,
     "name": "EverWarm Puffer Jacket",
     "price": 79.99,
     "image": "https://images.unsplash.com/photo-1624548140129-74786c5f1279?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphY2tldCUyMHByb2R1Y3QlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
-    "category": "Clothing"
+    "category": "Clothing",
+    "description": "Stay warm this winter with the EverWarm Puffer Jacket. Its lightweight yet insulated design offers superior warmth and comfort. The sleek, modern look makes it perfect for outdoor adventures or urban commuting."
   },
   {
     "id": 10,
     "name": "StrideX Performance Sneakers",
     "price": 59.99,
     "image": "https://images.unsplash.com/photo-1618686081236-3ef081793aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHNuZWFrZXJzJTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHww",
-    "category": "Clothing"
+    "category": "Clothing",
+    "description": "The StrideX Performance Sneakers combine comfort and style for active individuals. Featuring high-performance materials, these sneakers are designed for running, walking, and all-day wear. Perfect for sports enthusiasts and casual wearers alike."
   },
   {
     "id": 11,
     "name": "CloudSoft Pullover Hoodie",
     "price": 39.99,
     "image": "https://images.unsplash.com/photo-1630269470848-337134b23b06?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Clothing"
+    "category": "Clothing",
+    "description": "The CloudSoft Pullover Hoodie offers ultimate comfort with its soft, fleece-lined interior. Designed for cozy weekends or casual evenings, this hoodie provides warmth without sacrificing style."
   },
   {
     "id": 12,
     "name": "DenimEdge Slim Jeans",
     "price": 49.99,
     "image": "https://images.unsplash.com/photo-1624378441864-6eda7eac51cb?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Clothing"
+    "category": "Clothing",
+    "description": "The DenimEdge Slim Jeans are a stylish addition to your wardrobe, offering a sleek fit with just the right amount of stretch. Crafted from premium denim, these jeans provide comfort and durability while maintaining a modern, slim silhouette."
   }
 ]

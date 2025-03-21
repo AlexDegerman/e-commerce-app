@@ -1,20 +1,20 @@
 [
   {
-    "id": 1,
+    "id": 26,
     "name": "TrailBlazer Mountain Bike",
     "price": 349.99,
     "image": "https://images.unsplash.com/photo-1673121414328-52eff37bc6d0?q=80&w=2696&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Sports & Outdoors"
   },
   {
-    "id": 2,
+    "id": 13,
     "name": "Zenith X1 Smartphone",
     "price": 599.99,
     "image": "https://images.unsplash.com/photo-1583291023438-41cef6453b1f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Electronics"
   },
   {
-    "id": 3,
+    "id": 18,
     "name": "PhotonX Digital Camera",
     "price": 499.99,
     "image": "https://images.unsplash.com/photo-1571906970981-21af44b68290?q=80&w=2712&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

@@ -35,3 +35,10 @@
 .featured-products h2 {
   color: black;
 }
+
+.product-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; 
+}

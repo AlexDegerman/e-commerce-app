@@ -4,27 +4,31 @@
     "name": "Velvo Luxe 3-Seater Sofa",
     "price": 899.99,
     "image": "https://images.unsplash.com/photo-1698936061086-2bf99c7b9fc5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8M3NlYXRlciUyMHNvZmElMjBwcm9kdWN0JTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
-    "category": "Home Decor"
+    "category": "Home Decor",
+    "description": "The Velvo Luxe 3-Seater Sofa is the epitome of comfort and style. Crafted with plush cushions and a modern design, this sofa is perfect for any living room. Its luxurious fabric and neutral tones make it a versatile addition to your home decor."
   },
   {
     "id": 23,
     "name": "MapleNest Wooden Coffee Table",
     "price": 199.99,
     "image": "https://images.unsplash.com/photo-1576536977549-d5c67afa0733?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Home Decor"
+    "category": "Home Decor",
+    "description": "The MapleNest Wooden Coffee Table brings warmth and rustic charm to your living room. Made from high-quality wood, its sturdy structure and elegant finish make it a standout piece. Ideal for placing drinks, books, or decorative items."
   },
   {
     "id": 24,
     "name": "GlowAura LED Floor Lamp",
     "price": 69.99,
     "image": "https://images.unsplash.com/photo-1740034906098-99353c8c6f5e?q=80&w=2778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Home Decor"
+    "category": "Home Decor",
+    "description": "Illuminate your space with the GlowAura LED Floor Lamp. This sleek, modern lamp features energy-efficient LED lighting, providing both style and function. Its adjustable head allows for focused light, perfect for reading or creating a cozy ambiance."
   },
   {
     "id": 25,
     "name": "UrbanChic Framed Mirror",
     "price": 79.99,
     "image": "https://images.unsplash.com/photo-1623101325438-e34abdda3999?q=80&w=2701&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Home Decor"
+    "category": "Home Decor",
+    "description": "The UrbanChic Framed Mirror is the perfect accent piece for your hallway or bedroom. Its sleek frame and elegant design reflect contemporary style while adding a touch of sophistication to any room."
   }
 ]

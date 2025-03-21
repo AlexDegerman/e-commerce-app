@@ -4,27 +4,31 @@
     "name": "Galactic Hero Action Figure",
     "price": 19.99,
     "image": "https://images.unsplash.com/photo-1606703954710-b14112c87703?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsYWN0aWMlMjBoZXJvJTIwYWN0aW9uJTIwZmlndXJlJTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHwy",
-    "category": "Toys & Games"
+    "category": "Toys & Games",
+    "description": "Prepare for intergalactic battles with the **Galactic Hero Action Figure**! This detailed, fully poseable hero comes with an array of accessories to help you conquer the universe. Whether you're recreating epic space missions or inventing your own galactic saga, this figure is your perfect sidekick in the battle for the stars."
   },
   {
     "id": 32,
     "name": "MindBender 1000-Piece Puzzle",
     "price": 15.99,
     "image": "https://images.unsplash.com/photo-1711445508277-be5ac846f64a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Toys & Games"
+    "category": "Toys & Games",
+    "description": "Challenge your mind with the **MindBender 1000-Piece Puzzle**. With its intricate design and vibrant colors, this puzzle is perfect for puzzle enthusiasts and anyone looking to test their problem-solving skills. Get ready for hours of fun as you piece together this beautiful and brain-bending challenge!"
   },
   {
     "id": 33,
     "name": "EpicQuest Adventure Board Game",
     "price": 29.99,
     "image": "https://images.unsplash.com/photo-1606167668584-78701c57f13d?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "Toys & Games"
+    "category": "Toys & Games",
+    "description": "Embark on an unforgettable journey with the **EpicQuest Adventure Board Game**. Gather your friends or family and battle mythical creatures, solve challenging puzzles, and claim treasures as you race to complete your quest. With endless possibilities for strategic gameplay, each session offers a new adventure!"
   },
   {
     "id": 34,
     "name": "CuddlePaws Plush Teddy Bear",
     "price": 12.99,
     "image": "https://images.unsplash.com/photo-1648311128165-848a00883496?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVkZHklMjBiZWFyJTIwcHJvZHVjdCUyMGltYWdlfGVufDB8fDB8fHwy",
-    "category": "Toys & Games"
+    "category": "Toys & Games",
+    "description": "Snuggle up with the softest companion around — the **CuddlePaws Plush Teddy Bear**! This adorable bear is made with premium plush material, making it perfect for cuddling and comforting. Whether you're looking for a bedtime buddy or a new best friend, the **CuddlePaws Teddy Bear** is sure to steal your heart."
   }
 ]
