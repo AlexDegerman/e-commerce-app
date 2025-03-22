@@ -73,3 +73,17 @@ select {
 select:hover {
   border-color: #7e3dd6;
 }
+
+.notification {
+  position: fixed;
+  top: 160px;
+  left: 40%;
+  background-color: #5a2ca0;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+}

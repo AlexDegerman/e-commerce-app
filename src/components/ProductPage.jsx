@@ -1,30 +1,39 @@
-import { useParams } from "react-router-dom";
-import "../styles/ProductPage.css";
-import { CheckCircle, DollarSign, ShoppingCart, Truck } from "lucide-react";
-import { useProduct } from "../hooks/useProduct";
-import { useCart } from "../hooks/useCart";
-import { useState } from "react";
+import { useParams } from "react-router-dom"
+import "../styles/ProductPage.css"
+import { CheckCircle, DollarSign, ShoppingCart, Truck } from "lucide-react"
+import { useProduct } from "../hooks/useProduct"
+import { useCart } from "../hooks/useCart"
+import { useState, useEffect, useRef } from "react"
 
 const ProductPage = () => {
   const { index } = useParams()
   const { products } = useProduct()
   const { addToCart } = useCart()
   const [quantity, setQuantity] = useState(1)
-
+  const [showNotification, setShowNotification] = useState(false)
+  const timeoutRef = useRef(null)
+  
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current)
+      }
+    }
+  }, [])
+  
   const product = Object.values(products)
-  .flat()
-  .find((p) => p.id === parseInt(index))
-
-  const currentDate = new Date()
-  currentDate.setDate(currentDate.getDate() + 3)
-  const formattedDate = currentDate.toLocaleDateString()
-
-  const stockAmount = Math.floor(Math.random() * (200 - 100 + 1)) + 100;
-
+    .flat()
+    .find((p) => p.id === parseInt(index))
+    
   if (!product) {
     return <div>Product not found</div>
   }
-
+  
+  const currentDate = new Date()
+  currentDate.setDate(currentDate.getDate() + 3)
+  const formattedDate = currentDate.toLocaleDateString()
+  const stockAmount = Math.floor(Math.random() * (200 - 100 + 1)) + 100
+  
   const handleQuantityChange = (e) => {
     setQuantity(Number(e.target.value))
   }
@@ -34,10 +43,27 @@ const ProductPage = () => {
       ...product,
       quantity: quantity
     })
+    
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current)
+    }
+    
+    setShowNotification(true)
+    
+    timeoutRef.current = setTimeout(() => {
+      setShowNotification(false)
+    }, 3000)
   }
-
+  
   return (
     <div className="product-page-container">
+      {showNotification && (
+        <div className="notification">
+          <CheckCircle color="white" size={16} />
+          <span>{quantity}x {product.name} added to cart!</span>
+        </div>
+      )}
+      
       <h1 className="product-title">{product.name}</h1>
       <img src={product.image} alt={product.name} className="product-page-image" />
       <div className="product-details">
