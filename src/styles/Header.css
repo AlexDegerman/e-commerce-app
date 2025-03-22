@@ -5,7 +5,7 @@
   justify-content: space-between;
   background-color: #8A2BE2;
   color: white;
-  width: 750px;
+  width: clamp(280px, 100%, 750px);
   margin-top: 50px;
   padding: 10px 20px;
 }
@@ -18,4 +18,18 @@
 .header-link:hover {
   color: #FFD700;
   text-decoration: underline;
+}
+
+@media (max-width: 475px) { 
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .header {
+    margin-top: 0px;
+  }
 }

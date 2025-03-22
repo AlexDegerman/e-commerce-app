@@ -12,7 +12,7 @@ body {
 
 .main-content {
   background-color: #FFFFFF;
-  width: 750px;
+  width: clamp(280px, 95%, 750px);
   display: flex;
   flex-direction: column;
   align-items: center;

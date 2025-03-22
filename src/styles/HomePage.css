@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
+  width: clamp(280px, 95%, 500px);
 }
 
 .promoted-products-carousel {
@@ -14,6 +14,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .carousel-overlay {
@@ -51,4 +52,10 @@
 
 .more-products-message {
   margin: 10px;
+}
+
+@media (max-width: 475px) {
+  .featured-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

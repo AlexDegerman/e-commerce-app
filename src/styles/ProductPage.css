@@ -8,7 +8,6 @@
 .product-page-container {
   color: black;
   background-color: #FFFFFF;
-  width: 750px;
   padding-bottom: 50px;
 }
 
@@ -86,4 +85,25 @@ select:hover {
   align-items: center;
   gap: 8px;
   z-index: 1000;
+}
+
+@media (max-width: 475px) {
+  .product-details {
+    flex-direction: column;
+  }
+  
+  .product-description, .product-info {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .notification {
+    top: 160px;
+    left: 2%;
+    padding: 8px 16px;
+  }
+
+  .product-page-image{
+    height: 200px;
+  }
 }

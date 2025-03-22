@@ -3,7 +3,7 @@ import { useCart } from "../hooks/useCart"
 import "../styles/Cart.css"
 
 const Cart = () => {
-  const { cartItems, removeFromCart } = useCart()
+  const { cartItems, removeFromCart, clearCart } = useCart()
 
   const totalPrice = cartItems.reduce((total, item) => total + (item.price * (item.quantity || 1)), 0)
 
@@ -30,6 +30,7 @@ const Cart = () => {
         <button onClick={() => removeFromCart(item.id)}>Remove</button>
       </div>
     ))}
+     <button className="clear-cart-button" onClick={clearCart}>Remove all</button>
     <div className="cart-total">
       <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
     </div>
