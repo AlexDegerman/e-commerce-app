@@ -70,8 +70,13 @@
   cursor: pointer;
 }
 
+.clear-cart {
+  display: flex;
+}
+
 .clear-cart-button {
   margin-top: 20px;
+  margin-left: auto;
 }
 
 .cart-item button:hover {

@@ -30,7 +30,9 @@ const Cart = () => {
         <button onClick={() => removeFromCart(item.id)}>Remove</button>
       </div>
     ))}
-     <button className="clear-cart-button" onClick={clearCart}>Remove all</button>
+    <div className="clear-cart">
+      <button className="clear-cart-button" onClick={clearCart}>Remove all</button>
+    </div>
     <div className="cart-total">
       <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
     </div>
