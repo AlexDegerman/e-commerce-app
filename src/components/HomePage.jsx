@@ -6,20 +6,27 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [isTransitioning, setIsTransitioning] = useState(false)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % promotedProducts.length)
+      setIsTransitioning(true);
+      setTimeout(() => {
+        setCurrentIndex((prevIndex) => 
+          (prevIndex + 1) % promotedProducts.length
+        );
+        setIsTransitioning(false);
+      }, 400)
     }, 5000)
-
-    return () => clearInterval(interval)
-  },[])
+    
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="home-page-container">
       <Link to={`/product/${promotedProducts[currentIndex].id}`} className="product-link">
         <div
-          className="promoted-products-carousel"
+          className={`promoted-products-carousel ${isTransitioning ? 'carousel-transitioning' : 'carousel-visible'}`}
           style={{
             backgroundImage: `url(${promotedProducts[currentIndex].image})`,
           }}

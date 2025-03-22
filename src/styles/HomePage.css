@@ -14,7 +14,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .carousel-overlay {
@@ -52,6 +52,14 @@
 
 .more-products-message {
   margin: 10px;
+}
+
+.carousel-transitioning {
+  opacity: 0;
+}
+
+.carousel-visible {
+  opacity: 1;
 }
 
 @media (max-width: 475px) {
