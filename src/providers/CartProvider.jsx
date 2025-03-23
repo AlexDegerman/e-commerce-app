@@ -5,6 +5,7 @@ export const CartProvider = ({ children }) => {
   const storedCartItems = JSON.parse(localStorage.getItem("cartItems")) || []
   const [cartItems, setCartItems] = useState(storedCartItems)
 
+  // Adds a product to the cart, updating its quantity if already in the cart, or adding it as a new item.
   const addToCart = (product) => {
     setCartItems((prevItems) => {
       const existingItemIndex = prevItems.findIndex(item => item.id === product.id)

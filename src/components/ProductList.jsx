@@ -23,6 +23,7 @@ const ProductList = () => {
 
   return (
     <div className="product-list">
+      {/* Category Selector */}
       <div className="category-selector">
         <label htmlFor="category-select">Filter by category: </label>
         <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
@@ -33,7 +34,7 @@ const ProductList = () => {
           ))}
         </select>
       </div>
-
+          {/* Grid of products on display */}
       <div className="product-grid">
         {productsToDisplay.map((product) => (
           <Link to={`/product/${product.id}`} key={product.id} className="product-link">

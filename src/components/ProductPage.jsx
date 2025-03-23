@@ -57,13 +57,14 @@ const ProductPage = () => {
   
   return (
     <div className="product-page-container">
+      {/* Notification popup */}
       {showNotification && (
         <div className="notification">
           <CheckCircle color="white" size={16} />
           <span>{quantity}x {product.name} added to cart!</span>
         </div>
       )}
-      
+      {/* Product details and add to cart */}
       <h1 className="product-title">{product.name}</h1>
       <img src={product.image} alt={product.name} className="product-page-image" />
       <div className="product-details">

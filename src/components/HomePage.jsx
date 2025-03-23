@@ -8,22 +8,24 @@ const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isTransitioning, setIsTransitioning] = useState(false)
 
+  // Change banner product every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setIsTransitioning(true);
+      setIsTransitioning(true)
       setTimeout(() => {
         setCurrentIndex((prevIndex) => 
           (prevIndex + 1) % promotedProducts.length
-        );
-        setIsTransitioning(false);
+        )
+        setIsTransitioning(false)
       }, 400)
     }, 5000)
     
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <div className="home-page-container">
+      {/* Rotating Banner for Promoted Products */}
       <Link to={`/product/${promotedProducts[currentIndex].id}`} className="product-link">
         <div
           className={`promoted-products-carousel ${isTransitioning ? 'carousel-transitioning' : 'carousel-visible'}`}
@@ -37,6 +39,7 @@ const HomePage = () => {
           </div>
         </div>
       </Link>
+      {/* Grid for Featured Products */}
       <div className="featured-products">
         <h2>Featured Products</h2>
         <div className="featured-products-grid">

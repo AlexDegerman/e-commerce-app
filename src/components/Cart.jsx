@@ -5,6 +5,7 @@ import "../styles/Cart.css"
 const Cart = () => {
   const { cartItems, removeFromCart, clearCart } = useCart()
 
+  // Calculate total price of items in cart
   const totalPrice = cartItems.reduce((total, item) => total + (item.price * (item.quantity || 1)), 0)
 
   if (cartItems.length === 0) {
@@ -14,6 +15,7 @@ const Cart = () => {
   return (
     <div className="cart-container">
     <h1>Your Cart</h1>
+    {/* List of products in cart with details */}
     {cartItems.map((item) => (
       <div key={item.id} className="cart-item">
         <Link to={`/product/${item.id}`}>
@@ -30,6 +32,7 @@ const Cart = () => {
         <button onClick={() => removeFromCart(item.id)}>Remove</button>
       </div>
     ))}
+    {/* Clear Cart and Total Price */}
     <div className="clear-cart">
       <button className="clear-cart-button" onClick={clearCart}>Remove all</button>
     </div>
