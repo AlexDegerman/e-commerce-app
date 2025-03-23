@@ -87,6 +87,11 @@ select:hover {
   z-index: 1000;
 }
 
+.not-found {
+  color: black;
+  margin-top: 75px;
+}
+
 @media (max-width: 475px) {
   .product-details {
     flex-direction: column;

@@ -3,7 +3,7 @@ import "../styles/ProductPage.css"
 import { CheckCircle, DollarSign, ShoppingCart, Truck } from "lucide-react"
 import { useProduct } from "../hooks/useProduct"
 import { useCart } from "../hooks/useCart"
-import { useState, useEffect, useRef } from "react"
+import { useState} from "react"
 
 const ProductPage = () => {
   const { index } = useParams()
@@ -11,22 +11,13 @@ const ProductPage = () => {
   const { addToCart } = useCart()
   const [quantity, setQuantity] = useState(1)
   const [showNotification, setShowNotification] = useState(false)
-  const timeoutRef = useRef(null)
-  
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current)
-      }
-    }
-  }, [])
   
   const product = Object.values(products)
     .flat()
     .find((p) => p.id === parseInt(index))
     
   if (!product) {
-    return <div>Product not found</div>
+    return <div className="not-found">Product not found</div>
   }
   
   const currentDate = new Date()
@@ -44,13 +35,9 @@ const ProductPage = () => {
       quantity: quantity
     })
     
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current)
-    }
-    
     setShowNotification(true)
     
-    timeoutRef.current = setTimeout(() => {
+    setTimeout(() => {
       setShowNotification(false)
     }, 3000)
   }
